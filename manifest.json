@@ -1,0 +1,21 @@
+{
+  "name": "faqComponent",
+  "vendor": "changeMe",
+  "version": "0.1.0",
+  "vtex-version": "0.0.0",
+  "builders": {
+    "react": "3.x",
+    "store": "0.x",
+    "messages": "1.x"
+  },
+  "title": "faqComponent",
+  "description": "faq component",
+  "scripts": {
+    "postreleasy": "vtex publish --verbose"
+  },
+  "dependencies": {
+    "vtex.store": "2.x",
+    "vtex.store-graphql": "2.x"
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}
