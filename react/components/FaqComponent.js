@@ -36,7 +36,7 @@ const FaqComponent = (props) => {
         'FaqComponent--contentItemTitle',
         'FaqComponent--contentItemDescription'
     ]
-    const handles = useCssHandles(CSS_HANDLES)
+    const { handles } = useCssHandles(CSS_HANDLES)
     const handleClick = (index) => {
         setOpen(isOpen === index ? null : index)
     }
